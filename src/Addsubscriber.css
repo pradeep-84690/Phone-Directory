@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.subscriber-container{
+    display: flex;
+    margin: 15px; 
+    margin-left: 23px;
+}
+.subscriber-container div{
+    margin-right: 8%;
+    margin-left: 15px;
+}
+.data-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 20px 35px;
+}
+ .back-btn{
+    background-color: grey;
+    margin-top: 15px;
+    margin-left: 35px;
+    cursor: pointer;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+}
+.add-btn{
+    margin-left: 38px;
+    cursor: pointer;
+    background-color: rgb(46, 187, 46);
+    border: none;
+    padding: 10px 23px;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.span-control{
+    color: rgb(90, 90, 90);
+    font-size: larger;
+    font-weight: 700;
+}
+.span-control-1{
+    color:rgb(0, 102, 255);
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+input{
+    height: 26px;
+    width: 20vw;
+    margin: 18px 0px;
+    padding-left: 8px;
+}
+
+.grid-container-heading{
+    display: grid;
+    width: 47%;
+    grid-template-columns: 50% 50%;
+    margin: 45px 0px 20px 40px;
+    color: rgb(90, 90, 90);
+}
+.grid-container-heading span{
+    font-size: x-large;
+    font-weight: 700;  
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47px;
+    margin-top: 20px ;
+}
+
+.grid-container2 span{
+    font-size: large;
+    font-weight: 400;
+}
+.grid-container2 div button{
+    background-color: rgb(255, 152, 170);
+    padding: 8px 21px;
+    font-size: small;
+    font-weight: 400;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    width: 45%;
+    grid-template-columns: 50% 50%;
+    margin: 25px 0px 20px 47px;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 31px;
+}
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47px;
+    margin-top: 20px ;
+    margin-bottom: 30px;
+}
+
+.grid-container-2 span{
+    font-size: large;
+    font-weight: 500;
+}
+.grid-container-2 div button{
+    background-color: rgb(255, 152, 170);
+    padding: 8px 21px;
+    font-size: medium;
+    font-weight: 500;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-add{
+    background-color: rgb(46, 187, 46);
+    border: none;
+    padding: 12px 28px;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+    
+}
